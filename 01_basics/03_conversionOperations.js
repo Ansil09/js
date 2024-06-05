@@ -28,3 +28,39 @@ let isLoggedIn = "Ansil"
 
 let booleanIsloggedIn = Boolean(isLoggedIn)
 console.log(booleanIsloggedIn);
+
+
+
+// *******************operations*************************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+
+console.log(2+2);
+console.log(2*2);
+console.log(2-2);
+console.log(2%2);
+console.log(2**2);
+
+
+let str1 = "Ansil"
+let str2 = "hello"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" +2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1"+ 2 +2);
+console.log(1 + 2 + "2");
+
+console.log(+true);
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-typeconversion
