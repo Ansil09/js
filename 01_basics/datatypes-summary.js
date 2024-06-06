@@ -35,3 +35,33 @@ console.log(typeof scoreValue);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// **************************************************************************
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myLinked = "Ansilkumarshah"
+
+let anothername = myLinked
+anothername = "shah"
+
+console.log(myLinked);
+console.log(anothername);   
+
+/* result => Ansilkumarshah (get copy value not ref)
+        shah (get original value not ref)  */
+
+let userOne{
+    email = "user@google.com"
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ansil@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// result =>  get original value by reference 
