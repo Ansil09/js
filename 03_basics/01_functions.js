@@ -96,14 +96,41 @@ function sayMyname(){
 
 
 
-function loginUserMessage(username = "sam"){
-    if(username === undefined){
-        console.log(" Please enter a uername");
-        return
-    }
-    return `${username} just logged in`
+// function loginUserMessage(username = "sam"){
+//     if(username === undefined){
+//         console.log(" Please enter a uername");
+//         return
+//     }
+//     return `${username} just logged in`
+// }
+
+// console.log(loginUserMessage("ans"));
+
+
+
+
+// function calculateCartPrice(...num1){
+//     return num1
+// }
+
+// console.log(calculateCartPrice(200, 300, 400));
+
+
+const user ={
+    username: "ansil",
+    price: 199
 }
 
-console.log(loginUserMessage("ans"));
+function handleObject(anyobject){
+    console.log(`username is ${} and price is 
+        ${anyobject.price}`);
+}
 
+// handleObject(user)
+handleObject({
+    username: "ans",
+    price: 399
+})
+
+// const myNewArray = [200, 300, 400, 600]
 
