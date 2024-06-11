@@ -33,11 +33,10 @@ buttons.forEach(function (button) {
   });
 });
 ```
-# Projects related to DOM
 
 # Solution code
 
-## project 1
+## project 2
 
 ```javascript
 console.log("Ansil");
@@ -73,7 +72,7 @@ buttons.forEach(function (button) {
 
 # Solution code
 
-## project 1
+## project 3
 
 ```javascript
 console.log("Ansil");
